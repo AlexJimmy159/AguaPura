@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agua Pura</title>
+
+    <!--========================
+        TODO -- VINCULOS CSS
+	=========================-->
+    <!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu&display=swap"
+          rel="stylesheet"/>
+
+    <!-- Hoja de Estilos Personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/Style_Wireframe.css"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- jdSlider -->
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
+
+    <!-- SWIPER -PARA EL SLIDER DE IMAGENES -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+
+</head>
+
+<body>
+
+<!--=====================================
+            TODO -- HEADER
+======================================-->
+
+<div class="header container-fluid color_Fuerza">
+
+    <div class="header_contenido">
+
+        <!-- TODO -- HEADER --- LOGO -->
+        <div class="header_item p-2">
+
+            <img class="item_logo" src="img/Logo_AguaPura_1.png" alt="">
+
+        </div>
+
+        <!-- TODO -- HEADER --- VACIO -->
+        <div class="header_item"></div>
+
+        <!-- TODO -- HEADER --- FORMULARIO -->
+        <div class="header_item"></div>
+
+        <!-- TODO -- HEADER --- IDIOMA -->
+        <div class="header_item d-none d-lg-block p-1">
+
+            <span class="item_idiomaEs float-left text-white bg-info">ES</span>
+
+            <span class="item_idiomaEn float-left text-dark bg-white">EN</span>
+
+        </div>
+
+        <!-- TODO -- HEADER --- MENU HAMBURGUESA -->
+        <div class="header_item p-1">
+
+            <i class="fas fa-bars item_menu"></i>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--=====================================
+            TODO -- BANNER
+======================================-->
+
+<div class="banner container-fluid p-0">
+
+    <div class="jd-slider fade-slider">
+
+        <div class="slide-inner">
+
+            <!-- TODO -- BANNER --- IMAGENES -->
+            <ul class="slide-area">
+
+                <li>
+                    <img src="img/Inicio_Banner1.jpg">
+                </li>
+
+                <li>
+                    <img src="img/Inicio_Banner2.jpg">
+                </li>
+
+                <li>
+                    <img src="img/Inicio_Banner3.jpg">
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- TODO -- BANNER --- INFO -->
+        <div class="banner_info text-center">
+
+            <!-- TODO -- BANNER --- INFO ---- LOGO -->
+            <img src="img/Logo_AguaPura_2.png" alt="">
+
+            <!-- TODO -- BANNER --- INFO ---- CONTENIDO -->
+            <div class="info_contenedor">
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 1 -->
+                <div class="info_item text-end" align="end">
+
+                    <h3>Eres</h3>
+                    <h3>Salva ese</h3>
+
+                </div>
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 2 -->
+                <div class="info_item">
+
+                    <h1>60%</h1>
+
+                </div>
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 3 -->
+                <div class="info_item" align="start">
+
+                    <h3>de agua</h3>
+                    <h3>de ti</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BANNER --- VER MAS -->
+        <div class="banner_VerMas text-center bg-white rounded-circle d-none d-lg-block" vinculo="#planes">
+
+            <i class="fas fa-chevron-down"></i>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--=====================================
+            TODO -- MENU
+======================================-->
+
+<nav class="menu container-fluid">
+
+    <ul class="nav nav-justified">
+
+        <!-- TODO -- MENU --- INICIO -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Inicio</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- TEMAS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Temas</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- SOBRE NOSOTROS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Sobre Nosotros</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- CONTACTENOS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Contactenos</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- ICONOS -->
+        <li class="nav-item color_Confianza">
+
+            <ul class="menu_iconos_contenedor p-2">
+
+                <!-- TODO -- MENU --- ICONO ---- LINKEDIN -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconLinkedin.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- GMAIL -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconGmail.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- FACEBOOK -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconFacebook.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- PINTEREST -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconPinterest.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- YOUTUBE -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconYoutube.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- WHATSAPP -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconWhatsapp.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+</nav>
+
+<!--=====================================
+        TODO -- BLOQUE FONDO
+======================================-->
+<div class="bloque_fondo container-fluid p-0">
+
+    <div class="bloque_fondo_contenido">
+
+        <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO -->
+        <div class="fondo_item_bienvenido">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- IMG -->
+            <img class="item_bienvenido_img" src="img/Inicio_Bienvenida_Celular.png" alt="" height="100%"
+                 width="100%">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- GIF -->
+            <img class="item_bienvenido_gif" src="img/Inicio_Bienvenida.gif" alt="" alt="" height="100%"
+                 width="100%">
+
+        </div>
+
+        <!-- TODO -- BLOQUE FONDO --- ITEM ---- FONDO -->
+        <div class="fondo_item_fondo">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- FONDO ----- IMG -->
+            <img src="img/Inicio_Bienvenida_Fondo.jpg" alt="" height="100%" width="100%">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+        TODO -- BLOQUE IMPORTANCIA
+======================================-->
+<div class="importancia">
+
+    <!-- TODO -- BLOQUE IMPORTANCIA --- TITULO -->
+    <div class="importancia_titulo container">
+
+        <h1>IMPORTANCIA DEL AGUA</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO -->
+    <div class="importancia_contenido container-fluid">
+
+        <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM -->
+        <div class="importancia_contenido_item container">
+
+            <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- VIDEO -->
+            <div class="importancia_contenido_video">
+
+                video
+
+            </div>
+
+            <div></div>
+
+            <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO -->
+            <div class="importancia_contenido_info">
+
+                <h2>¿Por que es importante el agua?</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque et ipsum laborum nobis obcaecati quae
+                    quaerat, voluptate voluptatum! Adipisci alias beatae eaque labore, laboriosam mollitia optio
+                    pariatur
+                    quidem veniam veritatis.</p>
+
+                <div>
+
+                    <input type="button" name="submit" value="Ver mas">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+        TODO -- BLOQUE SABIAS QUE
+======================================-->
+<div class="sabias container">
+
+    <h1>SABIAS QUE</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam beatae consequuntur cum cupiditate
+        deserunt ea et facere, itaque non odio possimus provident quia quidem, reiciendis tempore veniam vitae.</p>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CAUSAS CONSECUENCIAS
+======================================-->
+<div class="causas_consecuencias">
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- TITULO -->
+    <div class="causas_consecuencias_titulo container">
+
+        <h1>CAUSAS Y CONSECUENCIAS</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO -->
+    <div class="causas_consecuencias_fondo container-fluid">
+
+        <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM -->
+        <div class="causas_consecuencias_contenido container p-0">
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CAUSAS -->
+            <div class="causas_contenido">
+
+                <div class="causas_contenido_item">
+
+                    <h2>CAUSAS</h2>
+
+                    <input type="button" name="submit" value="Ver mas">
+
+                </div>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CONSECUENCIAS -->
+            <div class="consecuencias_contenido">
+
+                <div class="consecuencias_contenido_item">
+
+                    <h2>CONSECUENCIAS</h2>
+
+                    <input type="button" name="submit" value="Ver mas">
+
+                </div>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ IMG -->
+            <div class="sabiasque_img">
+
+                img
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE SOBRE NOSOTROS
+======================================-->
+<div class="sobre_nosotros">
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS --- TITULO -->
+    <div class="sobre_nosotros_titulo container">
+
+        <h1>SOBRE NOSOTROS</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO -->
+    <div class="sobre_nosotros_fondo container-fluid">
+
+        <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO -->
+        <div class="sobre_nosotros_contenido container p-0">
+
+            <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- AGUAPURA -->
+            <div class="sobre_nosotros_contenido_AguaPura">
+
+                <div>logo</div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto consequatur debitis
+                    delectus, dignissimos, ea earum eum fugiat mollitia nemo nesciunt nobis obcaecati odio omnis quia
+                    rem repellendus tempora vel!</p>
+
+                <input type="button" name="submit" value="Ver mas">
+
+            </div>
+
+            <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM -->
+            <div class="sobre_nosotros_contenido_team">
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM1 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <div>foto</div>
+                    <h1>thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn">
+
+                        <li>G</li>
+                        <li>F</li>
+                        <li>W</li>
+
+                    </ul>
+
+                    <div>logo</div>
+
+                </div>
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM2 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <div>foto</div>
+                    <h1>thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn">
+
+                        <li>G</li>
+                        <li>F</li>
+                        <li>W</li>
+
+                    </ul>
+
+                    <div>logo</div>
+
+                </div>
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM3 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <div>foto</div>
+                    <h1>thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn">
+
+                        <li>G</li>
+                        <li>F</li>
+                        <li>W</li>
+
+                    </ul>
+
+                    <div>logo</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CAMBIANDO VIDAS
+======================================-->
+
+<!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO -->
+<div class="cambiando_vidas container-fluid">
+
+    <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO -->
+    <div class="cambiando_vidas_contenido container p-0">
+
+        <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM INFO -->
+        <div class="cambiando_vidas_contenido_info">
+
+            <h1>Lima - Parú</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda atque autem blanditiis, corporis
+                debitis deleniti dolores ea eius hic magni maiores porro provident, quae quia quibusdam vitae. Ad,
+                labore?</p>
+
+        </div>
+
+        <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM TITULO -->
+        <div class="cambiando_vidas_contenido_titulo">
+
+            <h1>Cambiando vidas</h1>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE MEJORAR CONSUMO
+======================================-->
+<div class="mejorar_consumo container p-0">
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO --- TITULO -->
+    <div class="mejorar_consumo_titulo">
+
+        <h1>MEJORAR MEDIDA DE CONSUMO</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO -->
+    <div class="mejorar_consumo_contenido">
+
+        <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM -->
+        <diV class="mejorar_consumo_contenido_item">
+
+            <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- IMG -->
+            <div class="mejorar_consumo_contenido_item_img">img</div>
+
+            <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- INFO -->
+            <div class="mejorar_consumo_contenido_item_info">
+
+                <h2>Pasos para saber ahorrar agua en casa</h2>
+
+                <input type="button" value="Ver mas">
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- IMG -->
+        <div class="mejorar_consumo_contenido_img">img</div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CONTACTENOS
+======================================-->
+<div class="contactenos container-fluid">
+
+    <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR -->
+    <div class="contactenos_contenedor container">
+
+        <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO -->
+        <div class="contactenos_contenedor_info">
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- TITULO -->
+            <div class="contactenos_contenedor_info_titulo">
+
+                <h1>CONTACTENOS</h1>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM -->
+            <div class="contactenos_contenedor_info_contenedor">
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ ATENCION -->
+                <div class="contactenos_contenedor_info_item">
+
+                    <h1>RAPIDA ATENCION</h1>
+                    <h2>una mejor y rapida atencion al cliente</h2>
+                    <div>img</div>
+
+                </div>
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ SERVICIO -->
+                <div class="contactenos_contenedor_info_item">
+
+                    <h1>MEJOR SERVICIO</h1>
+                    <h2>una mejor y rapida atencion al cliente</h2>
+                    <div>img</div>
+
+                </div>
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ VISITANOS -->
+                <div class="contactenos_contenedor_info_item">
+
+                    <h1>VISITANOS</h1>
+                    <h2>una mejor y rapida atencion al cliente</h2>
+
+
+                    <div>
+                        <div>icn</div>
+                        <h2>direccion</h2>
+                    </div>
+
+                    <div>
+                        <div>icn</div>
+                        <h2>telefono</h2>
+                    </div>
+
+                    <h2>horario</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO -->
+        <div class="contactenos_contenedor_formulario">
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- IMG -->
+            <div class="contactenos_contenedor_formulario_img">img</div>
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- ITEMS -->
+            <form class="contactenos_contenedor_formulario_items">
+
+                <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Nombre">
+
+                <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Apellido">
+
+                <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Telefono">
+
+                <input type="text" class="contactenos_contenedor_formulario_input" placeholder="E-mail">
+
+                <textarea class="contactenos_contenedor_formulario_textarea" rows="6"
+                          placeholder="Escriba su mensaje aqui"></textarea>
+
+                <input class="contactenos_contenedor_formulario_boton" value="Enviar">
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE IMAGENES
+======================================-->
+<div class="imagenes">
+
+    <!-- TODO -- BLOQUE IMAGENES --- CONTENEDOR -->
+    <div class="imagenes_contenedor container-fluid">
+
+        <!-- TODO -- BLOQUE IMAGENES --- CONTENEDOR ---- IMG -->
+        <div class="imagenes_contenedor_item">img1</div>
+        <div class="imagenes_contenedor_item">img2</div>
+        <div class="imagenes_contenedor_item">img3</div>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <!--=====================================
+            TODO -- FOOTER PIE PAGINA
+    ======================================-->
+    <div class="pie container-fluid">
+
+        <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR -->
+        <div class="pie_contenedor">
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- AGUAPURA -->
+            <div class="pie_contenedor_aguapura">
+
+                <div>logo</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque blanditiis cum debitis
+                    distinctio earum eligendi eveniet explicabo iure labore maxime molestias pariatur quisquam, quo,
+                    reiciendis saepe, sit velit voluptas!</p>
+
+            </div>
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- MAPA -->
+            <div class="pie_contenedor_mapa">
+
+                <div>mapa</div>
+
+            </div>
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO -->
+            <div class="pie_contenedor_info">
+
+                <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES -->
+                <div class="pie_contenedor_info_redes">
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM GMAIL -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>icn</li>
+                        <li>aguapura@gmail.com</li>
+
+                    </ul>
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM FACEBOOK -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>icn</li>
+                        <li>Agua Pura</li>
+
+                    </ul>
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM WHATSAPP -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>icn</li>
+                        <li>+51 900526729</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM ICONOS -->
+                <div class="pie_contenedor_info_icn">
+
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--=====================================
+        TODO -- FOOTER DERECHOS DE AUTOR
+    ======================================-->
+    <div class="derechos container-fluid">
+
+        <h3>Derechos de autor</h3>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+
+<!--========================
+ TODO -- VINCULOS JAVASCRIPT
+=========================-->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- JavaScript Personalizado -->
+<script src="js/script.js"></script>
+
+<!-- jdSlider -->
+<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+<script src="js/plugins/jquery.jdSlider-latest.js"></script>
+
+<!-- SWIPER - PARA EL SLIDER DE IMAGENES -->
+<script src="js/plugins/swiper.min.js"></script>
+
+</html>

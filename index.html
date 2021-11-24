@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agua Pura</title>
+
+    <!--========================
+        TODO -- VINCULOS CSS
+	=========================-->
+    <!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu&display=swap"
+          rel="stylesheet"/>
+
+    <!-- Hoja de Estilos Personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/Style.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/Style_Movil.css"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- jdSlider -->
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
+
+    <!-- SWIPER -PARA EL SLIDER DE IMAGENES -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+
+</head>
+
+<body>
+
+<!--=====================================
+            TODO -- HEADER
+======================================-->
+
+<div class="header container-fluid color_Fuerza">
+
+    <div class="header_contenido">
+
+        <!-- TODO -- HEADER --- LOGO -->
+        <div class="header_item p-2">
+
+            <img class="item_logo" src="img/Logo_AguaPura_1.png" alt="">
+
+        </div>
+
+        <!-- TODO -- HEADER --- VACIO -->
+        <div class="header_item d-none d-lg-block"></div>
+
+        <!-- TODO -- HEADER --- FORMULARIO -->
+        <div class="header_item d-none d-md-block"></div>
+
+        <!-- TODO -- HEADER --- IDIOMA -->
+        <div class="header_item d-none d-md-block p-1">
+
+            <span class="item_idiomaEs float-left text-white bg-info">ES</span>
+
+            <span class="item_idiomaEn float-left text-dark bg-white">EN</span>
+
+        </div>
+
+        <!-- TODO -- HEADER --- MENU HAMBURGUESA -->
+        <div class="header_item p-1">
+
+            <i class="fas fa-bars item_menu"></i>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--=====================================
+            TODO -- BANNER
+======================================-->
+
+<div class="banner container-fluid p-0">
+
+    <div class="jd-slider fade-slider">
+
+        <div class="slide-inner">
+
+            <!-- TODO -- BANNER --- IMAGENES -->
+            <ul class="slide-area">
+
+                <li>
+                    <img src="img/Inicio_Banner1.jpg" alt="" height="100%" width="100%">
+                </li>
+
+                <li>
+                    <img src="img/Inicio_Banner2.jpg" alt="" height="100%" width="100%">
+                </li>
+
+                <li>
+                    <img src="img/Inicio_Banner3.jpg" alt="" height="100%" width="100%">
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- TODO -- BANNER --- INFO -->
+        <div class="banner_info text-center d-none d-lg-block">
+
+            <!-- TODO -- BANNER --- INFO ---- LOGO -->
+            <img src="img/Logo_AguaPura_2.png" alt="">
+
+            <!-- TODO -- BANNER --- INFO ---- CONTENIDO -->
+            <div class="info_contenedor">
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 1 -->
+                <div class="info_item text-end" align="end">
+
+                    <h3>Eres</h3>
+                    <h3>Salva ese</h3>
+
+                </div>
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 2 -->
+                <div class="info_item">
+
+                    <h1>60%</h1>
+
+                </div>
+
+                <!-- TODO -- BANNER --- INFO ---- CONTENIDO ----- TEXT 3 -->
+                <div class="info_item" align="start">
+
+                    <h3>de agua</h3>
+                    <h3>de ti</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BANNER --- VER MAS -->
+        <div class="banner_VerMas text-center bg-white rounded-circle d-none d-lg-block" vinculo="#planes">
+
+            <i class="fas fa-chevron-down"></i>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--=====================================
+            TODO -- MENU
+======================================-->
+
+<nav class="menu container-fluid">
+
+    <ul class="nav nav-justified">
+
+        <!-- TODO -- MENU --- INICIO -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Inicio</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- TEMAS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Temas</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- SOBRE NOSOTROS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Sobre Nosotros</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- CONTACTENOS -->
+        <li class="nav-item color_Fuerza">
+
+            <a class="nav-link" href="">Contactenos</a>
+
+        </li>
+
+        <!-- TODO -- MENU --- ICONOS -->
+        <li class="nav-item color_Confianza">
+
+            <ul class="menu_iconos_contenedor p-2">
+
+                <!-- TODO -- MENU --- ICONO ---- LINKEDIN -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconLinkedin.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- GMAIL -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconGmail.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- FACEBOOK -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconFacebook.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- PINTEREST -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconPinterest.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- YOUTUBE -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconYoutube.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU --- ICONO ---- WHATSAPP -->
+                <li class="menu_icono_item color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconWhatsapp.png" alt="" height="100%" width="100%">
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+</nav>
+
+<!--=====================================
+            TODO -- MENU MOVIL
+======================================-->
+
+<nav class="menu_movil container-fluid d-md-none">
+
+    <ul class="row p-0">
+
+        <!-- TODO -- MENU MOVIL --- INICIO -->
+        <li class="col-12 color_Fuerza">
+
+            <a class="nav-link" href="">Inicio</a>
+
+        </li>
+
+        <!-- TODO -- MENU MOVIL --- TEMAS -->
+        <li class="col-12 color_Fuerza">
+
+            <a class="nav-link" href="">Temas</a>
+
+        </li>
+
+        <!-- TODO -- MENU MOVIL --- SOBRE NOSOTROS -->
+        <li class="col-12 color_Fuerza">
+
+            <a class="nav-link" href="">Sobre Nosotros</a>
+
+        </li>
+
+        <!-- TODO -- MENU MOVIL --- CONTACTENOS -->
+        <li class="col-12 color_Fuerza">
+
+            <a class="nav-link" href="">Contactenos</a>
+
+        </li>
+
+        <!-- TODO -- MENU MOVIL --- ICONOS -->
+        <li class="col-12 color_Confianza">
+
+            <ul class="row p-3">
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- LINKEDIN -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconLinkedin.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- GMAIL -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconGmail.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- FACEBOOK -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconFacebook.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- PINTEREST -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconPinterest.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- YOUTUBE -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconYoutube.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+                <!-- TODO -- MENU MOVIL --- ICONO ---- WHATSAPP -->
+                <li class="menu_icono_item col-2 color_Confianza">
+                    <a href="#" target="_blank">
+                        <img src="img/iconWhatsapp.png" alt="" height="100%" width="60%">
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+</nav>
+
+<!--=====================================
+        TODO -- BLOQUE FONDO
+======================================-->
+<div class="bloque_fondo container-fluid p-0">
+
+    <div class="bloque_fondo_contenido">
+
+        <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO -->
+        <div class="fondo_item_bienvenido d-none d-md-block">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- IMG -->
+            <img class="item_bienvenido_img" src="img/Inicio_Bienvenida_Celular.png" alt="" height="100%"
+                 width="100%">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- GIF -->
+            <img class="item_bienvenido_gif" src="img/Inicio_Bienvenida.gif" alt="" alt="" height="100%"
+                 width="100%">
+
+        </div>
+
+        <!-- TODO -- BLOQUE FONDO --- ITEM ---- FONDO -->
+        <div class="fondo_item_fondo">
+
+            <!-- TODO -- BLOQUE FONDO --- ITEM ---- FONDO ----- IMG -->
+            <img src="img/Inicio_Bienvenida_Fondo.jpg" alt="" height="100%" width="100%">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+        TODO -- BLOQUE IMPORTANCIA
+======================================-->
+<div class="importancia d-none d-md-block">
+
+    <!-- TODO -- BLOQUE IMPORTANCIA --- TITULO -->
+    <div class="importancia_titulo container">
+
+        <h1>IMPORTANCIA DEL AGUA</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO -->
+    <div class="importancia_contenido container-fluid color_Confianza p-0">
+
+        <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM -->
+        <div class="importancia_contenido_item container p-0">
+
+            <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- VIDEO -->
+            <div class="importancia_contenido_video">
+
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m8iuW-qtPBQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO -->
+            <div class="importancia_contenido_info">
+
+                <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ TITULO -->
+                <h2>¿Por que es importante el agua?</h2>
+
+                <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ PARRAFO -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque et ipsum laborum nobis obcaecati quae
+                    quaerat, voluptate voluptatum! Adipisci alias beatae eaque labore, laboriosam mollitia optio
+                    pariatur
+                    quidem veniam veritatis.</p>
+
+                <!-- TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ BOTON -->
+                <input class="importancia_contenido_info_boton color_Fuerza" type="button" name="submit"
+                       value="Ver mas">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE IMPORTANCIA MOVIL
+======================================-->
+<div class="importancia_movil container-fluid p-0 d-md-none">
+
+    <!-- TODO -- BLOQUE IMPORTANCIA MOVIL --- CONTENIDO -->
+    <div class="importancia_movil_contenido container">
+
+        <h1 class="diseño_titulo">IMPORTANCIA DEL AGUA</h1>
+
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m8iuW-qtPBQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+    </div>
+
+    <!-- TODO -- BLOQUE IMPORTANCIA MOVIL --- INFO -->
+    <div class="importancia_movil_info">
+
+        <div class="container">
+
+            <!-- TODO -- BLOQUE IMPORTANCIA MOVIL --- INFO ------ TITULO -->
+            <h2 class="diseño_subtitulo">¿Por que es importante el agua?</h2>
+
+            <!-- TODO -- BLOQUE IMPORTANCIA MOVIL --- INFO ------ PARRAFO -->
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque et ipsum laborum nobis
+                obcaecati quae
+                quaerat, voluptate voluptatum! Adipisci alias beatae eaque labore, laboriosam mollitia optio
+                pariatur
+                quidem veniam veritatis.</p>
+
+            <!-- TODO -- BLOQUE IMPORTANCIA MOVIL --- INFO ------ BOTON -->
+            <input class="importancia_movil_info_boton diseño_boton color_Fuerza" type="button" name="submit"
+                   value="Ver mas">
+
+        </div>
+
+    </div>
+    s
+
+</div>
+
+<!--=====================================
+        TODO -- BLOQUE SABIAS QUE
+======================================-->
+<div class="sabias container">
+
+    <h1>SABIAS QUE</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam beatae consequuntur cum cupiditate
+        deserunt ea et facere, itaque non odio possimus provident quia quidem, reiciendis tempore veniam vitae.</p>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CAUSAS CONSECUENCIAS
+======================================-->
+<div class="causas_consecuencias d-none d-md-block">
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- TITULO -->
+    <div class="causas_consecuencias_titulo container">
+
+        <h1>CAUSAS Y CONSECUENCIAS</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO -->
+    <div class="causas_consecuencias_fondo container-fluid color_Confianza">
+
+        <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM -->
+        <div class="causas_consecuencias_contenido container p-0">
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CAUSAS -->
+            <div class="causas_contenido">
+
+                <div class="causas_contenido_item" align="center">
+
+                    <h2>Causas</h2>
+
+                    <input type="button" name="submit" value="Ver mas">
+
+                </div>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CONSECUENCIAS -->
+            <div class="consecuencias_contenido">
+
+                <div class="consecuencias_contenido_item" align="center">
+
+                    <h2>Consecuencias</h2>
+
+                    <input type="button" name="submit" value="Ver mas">
+
+                </div>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ IMG -->
+            <div class="sabiasque_img">
+
+                <img src="img/Inicio_SabiasQue.png" alt="" height="100%" width="100%">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL
+======================================-->
+<div class="causas_consecuencias_movil container-fluid p-0 d-md-none">
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CONTENIDO -->
+    <div class="container">
+
+        <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CONTENIDO ---- TITULO -->
+        <h1 class="diseño_titulo">CAUSAS Y CONSECUENCIAS</h1>
+
+        <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CONTENIDO ---- IMG -->
+        <img src="img/Inicio_SabiasQue.png" alt="" height="100%" width="100%">
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CAUSAS -->
+    <div class="causas_movil">
+
+        <div class="causas_movil_contenido diseño_transparente_negro" align="center">
+
+            <h2>Causas</h2>
+
+            <input class="diseño_boton color_Fuerza" type="button" name="submit" value="Ver mas">
+
+        </div>
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CONSECUENCIAS -->
+    <div class="consecuencias_movil">
+
+        <div class="consecuencias_movi_contenido diseño_transparente_negro" align="center">
+
+            <h2>Consecuencias</h2>
+
+            <input class="diseño_boton color_Fuerza" type="button" name="submit" value="Ver mas">
+
+        </div>
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- TITULO -->
+
+</div>
+
+
+<!--=====================================
+    TODO -- BLOQUE SOBRE NOSOTROS
+======================================-->
+<div class="sobre_nosotros d-none d-md-block">
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS --- TITULO -->
+    <div class="sobre_nosotros_titulo container">
+
+        <h1>SOBRE NOSOTROS</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO -->
+    <div class="sobre_nosotros_fondo container-fluid">
+
+        <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO -->
+        <div class="sobre_nosotros_contenido container p-0">
+
+            <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- AGUAPURA -->
+            <div class="sobre_nosotros_contenido_AguaPura color_Confianza" align="center">
+
+                <img src="img/Logo_AguaPura_2.png" alt="" width="100%" height="100%">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto consequatur debitis
+                    delectus, dignissimos, ea earum eum fugiat mollitia nemo nesciunt nobis obcaecati odio omnis quia
+                    rem repellendus tempora vel!</p>
+
+                <input type="button" name="submit" value="Ver mas">
+
+            </div>
+
+            <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM -->
+            <div class="sobre_nosotros_contenido_team">
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM1 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <img class="sobre_nosotros_contenido_team_item_foto" src="img/SobreNosotros_Team1.jpg" alt=""
+                         width="100%" height="100%">
+
+                    <h1>Thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn p-0">
+
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                        </li>
+
+                    </ul>
+
+                    <img class="sobre_nosotros_contenido_team_item_logo" src="img/Logo_AguaPura_1.png" alt=""
+                         height="100%" width="100%">
+
+                </div>
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM2 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <img class="sobre_nosotros_contenido_team_item_foto" src="img/SobreNosotros_Team2.jpg" alt=""
+                         height="100%" width="100%">
+
+                    <h1>thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn p-0">
+
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                        </li>
+
+                    </ul>
+
+                    <img class="sobre_nosotros_contenido_team_item_logo" src="img/Logo_AguaPura_1.png" alt=""
+                         height="100%" width="100%">
+
+                </div>
+
+                <!-- TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM3 -->
+                <div class="sobre_nosotros_contenido_team_item">
+
+                    <img class="sobre_nosotros_contenido_team_item_foto" src="img/SobreNosotros_Team3.jpg" alt=""
+                         height="100%" width="100%">
+
+                    <h1>thresa montero</h1>
+
+                    <ul class="sobre_nosotros_contenido_team_item_icn p-0">
+
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                        </li>
+
+                    </ul>
+
+                    <img class="sobre_nosotros_contenido_team_item_logo" src="img/Logo_AguaPura_1.png" alt=""
+                         height="100%" width="100%">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+   TODO -- BLOQUE SOBRE NOSOTROS MOVIL
+======================================-->
+<div class="sobre_nosotros_movil container-fluid p-0 d-md-none">
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS MOVIL --- TITULO -->
+    <h1 class="diseño_titulo">SOBRE NOSOTROS</h1>
+
+    <!-- TODO -- BLOQUE SOBRE NOSOTROS MOVIL --- INFO -->
+    <div class="sobre_nosotros_movil_info color_Confianza" align="center">
+
+        <div class="container">
+
+            <img src="img/Logo_AguaPura_2.png" alt="" width="100%" height="100%">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur consequuntur cumque
+                dignissimos, eius eligendi eos exercitationem facilis natus, nisi nobis optio quibusdam repellendus
+                reprehenderit tempora temporibus vero vitae voluptatem.</p>
+
+            <input class="diseño_boton color_Fuerza" type="button" name="submit" value="Ver mas">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CAMBIANDO VIDAS
+======================================-->
+<div class="cambiando_vidas d-none d-md-block">
+
+    <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO -->
+    <div class="cambiando_vidas_fondo container-fluid">
+
+        <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO -->
+        <div class="cambiando_vidas_contenido container p-0">
+
+            <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM INFO -->
+            <div class="cambiando_vidas_contenido_info">
+
+                <h1>Lima - Perú</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda atque autem blanditiis,
+                    corporis
+                    debitis deleniti dolores ea eius hic magni maiores porro provident, quae quia quibusdam vitae. Ad,
+                    labore?</p>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM TITULO -->
+            <div class="cambiando_vidas_contenido_titulo">
+
+                <h1>Cambiando vidas</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+  TODO -- BLOQUE CAMBIANDO VIDAS MOVIL
+======================================-->
+<div class="cambiando_vidas_movil container-fluid p-0 d-md-none">
+
+    <!-- TODO -- BLOQUE CAMBIANDO VIDAS MOVIL --- FONDO -->
+    <div class="cambiando_vidas_movil_fondo">
+
+        <!-- TODO -- BLOQUE CAMBIANDO VIDAS MOVIL --- FONDO ---- ITEM -->
+        <div class="diseño_transparente_negro">
+
+            <h1>Cambiando vidas</h1>
+
+        </div>
+
+    </div>
+
+    <!-- TODO -- BLOQUE CAMBIANDO VIDAS MOVIL --- INFO -->
+    <div class="cambiando_vidas_movil_info">
+
+        <div class="container">
+
+            <h1 class="diseño_subtitulo">Lima - Perú</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda atque autem blanditiis,
+                corporis
+                debitis deleniti dolores ea eius hic magni maiores porro provident, quae quia quibusdam vitae. Ad,
+                labore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda atque autem blanditiis,
+                corporis
+                debitis deleniti dolores ea eius hic magni maiores porro provident, quae quia quibusdam vitae. Ad,
+                labore?</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE MEJORAR CONSUMO
+======================================-->
+<div class="mejorar_consumo container p-0 d-none d-md-block">
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO --- TITULO -->
+    <div class="mejorar_consumo_titulo">
+
+        <h1>MEJORAR MEDIDA DE CONSUMO</h1>
+
+    </div>
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO -->
+    <div class="mejorar_consumo_contenido color_Confianza">
+
+        <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM -->
+        <diV class="mejorar_consumo_contenido_item ">
+
+            <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- IMG -->
+            <div class="mejorar_consumo_contenido_item_img">
+
+                <img src="img/MejorarConsumo_Fondo.png" alt="" height="100%" width="100%">
+
+            </div>
+
+            <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- INFO -->
+            <div class="mejorar_consumo_contenido_item_info">
+
+                <h2>Pasos para saber ahorrar agua en casa</h2>
+
+                <input type="button" value="Ver mas">
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- IMG -->
+        <div class="mejorar_consumo_contenido_img">
+
+            <img src="img/Inicio_MejorarConsumo.png" alt="" height="100%" width="100%">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+  TODO -- BLOQUE MEJORAR CONSUMO MOVIL
+======================================-->
+<div class="mejorar_consumo_movil container-fluid p-0 d-md-none">
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO MOVIL --- TITULO -->
+    <h1 class="diseño_titulo">MEJORAR MEDIDA DE CONSUMO</h1>
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO MOVIL --- IMG -->
+    <img src="img/MejorarConsumo_Fondo.png" alt="" height="100%" width="100%">
+
+    <!-- TODO -- BLOQUE MEJORAR CONSUMO MOVIL --- INFO -->
+    <div class="mejorar_consumo_movil_info">
+
+        <div class="container">
+
+            <h2>Pasos para saber ahorrar agua en casa</h2>
+
+            <input class="diseño_boton color_Fuerza" type="button" value="Ver mas">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CONTACTENOS
+======================================-->
+<div class="contactenos_fondo container-fluid p-0 d-none d-md-block">
+
+    <div class="contactenos">
+
+        <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR -->
+        <div class="contactenos_contenedor container">
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO -->
+            <div class="contactenos_contenedor_info">
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- TITULO -->
+                <div class="contactenos_contenedor_info_titulo">
+
+                    <h1>CONTACTENOS</h1>
+
+                </div>
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM -->
+                <div class="contactenos_contenedor_info_contenedor">
+
+                    <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ ATENCION -->
+                    <div class="contactenos_contenedor_info_item">
+
+                        <h1>RAPIDA ATENCION</h1>
+                        <h2>una mejor y rapida atencion al cliente las 24/7</h2>
+                        <img src="img/Inicio_Contactenos_AtencionCliente.png" alt="" height="100%" width="100%">
+
+                    </div>
+
+                    <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ SERVICIO -->
+                    <div class="contactenos_contenedor_info_item">
+
+                        <h1>MEJOR SERVICIO</h1>
+                        <h2>una mejor y optimo servicio a disposicion al cliente</h2>
+                        <img src="img/Inicio_Contactanos_MejorAtencion.jpg" alt="" height="100%" width="100%">
+
+                    </div>
+
+                    <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ VISITANOS -->
+                    <div class="contactenos_contenedor_info_item">
+
+                        <h1>VISITANOS</h1>
+                        <h2>Si usted desea comunicarse con nosostros puede acercarse a nuestra sede central</h2>
+
+                        <ul class="contactenos_contenedor_info_item_icn p-0">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </li>
+
+                            <li>
+                                <h3>jr. Washington 1894, Cercado de Lima</h3>
+                            </li>
+                        </ul>
+
+                        <ul class="contactenos_contenedor_info_item_icn p-0">
+                            <li>
+                                <i class="fas fa-phone-volume"></i>
+                            </li>
+
+                            <li>
+                                <h3>+51 900626025</h3>
+                            </li>
+                        </ul>
+
+                        <h3>Lunes a viernes de 8:30 a 16:30 horas(Horario corrido)</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO -->
+            <div class="contactenos_contenedor_formulario">
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- IMG -->
+                <div class="contactenos_contenedor_formulario_img">
+
+                    <img src="img/Inicio_Contactenos_Formulario.png" alt="" height="100%" width="100%">
+
+                </div>
+
+                <!-- TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- ITEMS -->
+                <form class="contactenos_contenedor_formulario_items">
+
+                    <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Nombre">
+
+                    <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Apellido">
+
+                    <input type="text" class="contactenos_contenedor_formulario_input" placeholder="Telefono">
+
+                    <input type="text" class="contactenos_contenedor_formulario_input" placeholder="E-mail">
+
+                    <textarea class="contactenos_contenedor_formulario_textarea" rows="6"
+                              placeholder="Escriba su mensaje aqui"></textarea>
+
+                    <input class="contactenos_contenedor_formulario_boton" value="Enviar">
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE CONTACTENOS MOVIL
+======================================-->
+<div class="contactenos_movil_fondo container-fluid p-0 d-md-none">
+
+    <div class="diseño_transparente_negro">
+
+        <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- TITULO -->
+        <h1 class="contactenos_movil_titulo">CONTACTENOS</h1>
+
+        <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- RAPIDA ATENCION -->
+        <div class="contactenos_movil_info">
+
+            <div class="container">
+
+                <h1>Rapida Atencion</h1>
+                <h2>una mejor y rapida atencion al cliente las 24/7</h2>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- MEJOR SERVICIO -->
+        <div class="contactenos_movil_info">
+
+            <div class="container">
+
+                <h1>Mejor servicio</h1>
+                <h2>una mejor y optimo servicio a disposicion al cliente</h2>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- VISITANOS -->
+        <div class="contactenos_movil_info">
+
+            <div class="container">
+
+                <h1>Visistanos</h1>
+                <h2>Si usted desea comunicarse con nosostros puede acercarse a nuestra sede central</h2>
+
+                <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- VISITANOS ---- ITEM DIRECCION -->
+                <ul class="contactenos_movil_info_item p-0">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </li>
+
+                    <li>
+                        <h3>jr. Washington 1894, Cercado de Lima</h3>
+                    </li>
+                </ul>
+
+                <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- VISITANOS ---- ITEM CELULAR -->
+                <ul class="contactenos_movil_info_item p-0">
+                    <li>
+                        <i class="fas fa-phone-volume"></i>
+                    </li>
+
+                    <li>
+                        <h3>+51 900626025</h3>
+                    </li>
+                </ul>
+
+                <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- VISITANOS ---- ITEM HORARIO -->
+                <h3>Lunes a viernes de 8:30 a 16:30 horas(Horario corrido)</h3>
+
+            </div>
+
+        </div>
+
+        <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- FORMULARIO -->
+        <div class="contactenos_movil_formulario p-0">
+
+            <img src="img/Inicio_Contactenos_Formulario.png" alt="" height="100%" width="100%">
+
+            <div class="container">
+
+                <!-- TODO -- BLOQUE CONTACTENOS MOVIL --- CONTENEDOR ---- FORMULARIO ----- ITEMS -->
+                <form class="contactenos_movil_formulario_items">
+
+                    <input type="text" class="contactenos_movil_formulario_input" placeholder="Nombre">
+
+                    <input type="text" class="contactenos_movil_formulario_input" placeholder="Apellido">
+
+                    <input type="text" class="contactenos_movil_formulario_input" placeholder="Telefono">
+
+                    <input type="text" class="contactenos_movil_formulario_input" placeholder="E-mail">
+
+                    <textarea class="contactenos_movil_formulario_textarea" rows="6"
+                              placeholder="Escriba su mensaje aqui"></textarea>
+
+                    <input class="diseño_boton color_Fuerza" type="button" value="Ver mas">
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE IMAGENES
+======================================-->
+<div class="imagenes d-none d-md-block">
+
+    <!-- TODO -- BLOQUE IMAGENES --- CONTENEDOR -->
+    <div class="imagenes_contenedor container-fluid">
+
+        <!-- TODO -- BLOQUE IMAGENES --- CONTENEDOR ---- IMG -->
+        <div class="imagenes_contenedor_item">
+
+            <img src="img/Inicio_Footer1.png" alt="" height="100%" width="100%">
+
+        </div>
+
+        <div class="imagenes_contenedor_item">
+
+            <img src="img/Inicio_Footer2.png" alt="" height="100%" width="100%">
+
+        </div>
+
+        <div class="imagenes_contenedor_item">
+
+            <img src="img/Inicio_Footer3.png" alt="" height="100%" width="100%">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--=====================================
+    TODO -- BLOQUE IMAGENES MOVIL
+======================================-->
+<div class="imagenes_movil container-fluid p-0 d-md-none">
+
+    <img src="img/Inicio_Footer1.png" alt="" height="100%" width="100%">
+
+</div>
+
+
+<footer>
+
+    <!--=====================================
+            TODO -- FOOTER PIE PAGINA
+    ======================================-->
+    <div class="pie container-fluid p-0 color_Confianza">
+
+        <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR -->
+        <div class="pie_contenedor">
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- AGUAPURA -->
+            <div class="pie_contenedor_aguapura">
+
+                <img src="img/Logo_AguaPura_1.png" alt="" width="100%" height="100%">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque blanditiis cum debitis
+                    distinctio earum eligendi eveniet explicabo iure labore maxime molestias pariatur quisquam, quo,
+                    reiciendis saepe, sit velit voluptas!</p>
+
+            </div>
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- MAPA -->
+            <div class="pie_contenedor_mapa">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d535.7223560778006!2d-77.03948217102628!3d-12.057128620001981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c41d4cee4f%3A0x2610f36c5a511120!2sJr.%20Washington%2C%20Cercado%20de%20Lima!5e0!3m2!1ses-419!2spe!4v1637632111359!5m2!1ses-419!2spe"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO -->
+            <div class="pie_contenedor_info">
+
+                <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES -->
+                <div class="pie_contenedor_info_redes">
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM GMAIL -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                        </li>
+
+                        <li>aguapura@gmail.com</li>
+
+                    </ul>
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM FACEBOOK -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+
+                        <li>Agua Pura</li>
+
+                    </ul>
+
+                    <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM WHATSAPP -->
+                    <ul class="pie_contenedor_info_redes_item">
+
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                        </li>
+
+                        <li>+51 900526729</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM ICONOS -->
+                <div class="pie_contenedor_info_icn">
+
+                    <div>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                    <div>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+
+                    <div>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--=====================================
+        TODO -- FOOTER DERECHOS DE AUTOR
+    ======================================-->
+    <div class="derechos container-fluid">
+
+        <h3>COPYRIGHT © 2021 - AGUAPURA</h3>
+
+    </div>
+
+</footer>
+
+</body>
+
+<!--========================
+ TODO -- VINCULOS JAVASCRIPT
+=========================-->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- JavaScript Personalizado -->
+<script src="js/script.js"></script>
+
+<!-- jdSlider -->
+<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+<script src="js/plugins/jquery.jdSlider-latest.js"></script>
+
+<!-- SWIPER - PARA EL SLIDER DE IMAGENES -->
+<script src="js/plugins/swiper.min.js"></script>
+
+</html>

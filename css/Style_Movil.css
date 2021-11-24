@@ -1,0 +1,439 @@
+.diseño_boton {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.diseño_titulo {
+    color: #FEC260;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.diseño_subtitulo {
+    color: #FEC260;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.diseño_transparente_negro {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+
+    /*=============================================
+                    TODO -- HEADER
+    =============================================*/
+    .header {
+        height: 80px;
+    }
+
+    .header_contenido {
+        grid-template-columns: 11fr 1fr;
+    }
+
+    /* TODO -- HEADER --- ITEM ---- LOGO */
+    .item_logo {
+        margin-left: 30%;
+        height: 60px;
+        width: auto;
+    }
+
+    /* TODO -- HEADER --- ITEM ---- MENU HAMBURGUESA */
+    .item_menu {
+        font-size: 60px;
+    }
+
+    /*=============================================
+                    TODO -- BANNER
+    =============================================*/
+    .banner {
+        position: relative;
+    }
+
+    .banner li {
+        height: 350px;
+    }
+
+    /*=============================================
+                TODO -- MENU MOVIL
+    =============================================*/
+    .menu_movil {
+        position: fixed;
+        top: 80px;
+        z-index: 5;
+    }
+
+    .menu_icono_item {
+        height: 30px;
+        width: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_movil li:hover > .nav-link {
+        background: #8B7B98;
+        transition: .5s all;
+        color: white;
+        font-weight: bold;
+    }
+
+    /*=============================================
+                TODO -- BLOQUE FONDO
+    =============================================*/
+    .bloque_fondo_contenido {
+        grid-template-columns: 12fr;
+    }
+
+    /* TODO -- BLOQUE FONDO --- ITEM ---- FONDO */
+    .fondo_item_fondo {
+        height: 350px;
+    }
+
+    /*=============================================
+            TODO -- BLOQUE IMPORTANCIA MOVIL
+    =============================================*/
+    .importancia_movil {
+        height: 980px;
+    }
+
+    /* TODO -- BLOQUE IMPORTANCIA MOVIL --- CONTENIDO */
+    .importancia_movil_contenido iframe {
+        height: 400px;
+        width: 100%;
+    }
+
+    /* TODO -- BLOQUE IMPORTANCIA MOVIL --- INFO */
+    .importancia_movil_info {
+        margin-top: 40px;
+        background-color: black;
+        height: 400px;
+        padding-top: 40px;
+    }
+
+    .importancia_movil_info input {
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+
+    /*=============================================
+                TODO -- BLOQUE SABIAS QUE
+    =============================================*/
+    .sabias {
+        padding: 0px;
+    }
+
+    .sabias p {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+    /*=============================================
+        TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL
+    =============================================*/
+    .causas_consecuencias_movil {
+        height: auto;
+    }
+
+    /* TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CAUSAS */
+    .causas_movil {
+        margin-top: 40px;
+        background: url("../img/Inicio_Causas.png") no-repeat;
+        background-size: 100% 400px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .causas_movil_contenido h2 {
+        padding-top: 120px;
+        padding-bottom: 40px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    /* TODO -- BLOQUE CAUSAS CONSECUENCIAS MOVIL --- CONSECUENCIAS */
+    .consecuencias_movil {
+        margin-top: 40px;
+        background: url(../img/Inicio_Consecuencia.jpg) no-repeat;
+        background-size: 100% 400px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .consecuencias_movi_contenido h2 {
+        padding-top: 120px;
+        padding-bottom: 40px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    /*=============================================
+        TODO -- BLOQUE SOBRE NOSOTROS MOVIL
+    =============================================*/
+    .sobre_nosotros_movil {
+        height: auto;
+    }
+
+    /* TODO -- BLOQUE SOBRE NOSOTROS MOVIL --- INFO */
+    .sobre_nosotros_movil_info {
+        width: 100%;
+        height: 500px;
+        padding-top: 30px;
+    }
+
+    .sobre_nosotros_movil_info img {
+        text-align: center;
+        width: 80%;
+        height: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sobre_nosotros_movil_info p {
+        text-align: left;
+        margin-bottom: 50px;
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /*=============================================
+          TODO -- BLOQUE CAMBIANDO VIDAS MOVIL
+    =============================================*/
+    .cambiando_vidas_movil {
+        margin-top: 40px;
+        height: auto;
+    }
+
+    /* TODO -- BLOQUE CAMBIANDO VIDAS MOVIL --- FONDO */
+    .cambiando_vidas_movil_fondo {
+        height: 450px;
+        background: url(../img/Inicio_CambiandoVidas.png) no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+
+    .cambiando_vidas_movil_fondo h1 {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        padding-top: 25%;
+    }
+
+    /* TODO -- BLOQUE CAMBIANDO VIDAS MOVIL --- INFO */
+    .cambiando_vidas_movil_info {
+        background-color: black;
+        height: 500px;
+        margin-top: 40px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .cambiando_vidas_movil_info p {
+        text-align: left;
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /*=============================================
+         TODO -- BLOQUE MEJORAR CONSUMO MOVIL
+    =============================================*/
+    .mejorar_consumo_movil {
+        height: auto;
+    }
+
+    .mejorar_consumo_movil img {
+        height: 400px;
+    }
+
+    /* TODO -- BLOQUE MEJORAR CONSUMO MOVIL --- INFO */
+    .mejorar_consumo_movil_info {
+        background-color: black;
+        height: 250px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .mejorar_consumo_movil_info h2 {
+        color: white;
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /*=============================================
+            TODO -- BLOQUE CONTACTENOS MOVIL
+    =============================================*/
+    .contactenos_movil_fondo {
+        margin-top: 40px;
+        background: url(../img/Inicio_contactenos_Fondo.png) no-repeat center center;
+        background-size: 2000px 100%;
+        height: auto;
+    }
+
+    /* TODO -- BLOQUE CONTACTENOS MOVIL --- TITULO*/
+    .contactenos_movil_titulo {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    /* TODO -- BLOQUE CONTACTENOS MOVIL --- ATENCION, SERVICIO Y VISITANOS */
+    .contactenos_movil_info {
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+
+    .contactenos_movil_info h1 {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contactenos_movil_info h2 {
+        border: 2px solid white;
+        font-size: 18px;
+        font-weight: normal;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+
+    /* TODO -- BLOQUE CONTACTENOS MOVIL --- VISITANOS */
+    .contactenos_movil_info_item {
+        display: grid;
+        grid-template-columns: 1fr 11fr;
+    }
+
+    .contactenos_movil_info h3 {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    /* TODO -- BLOQUE CONTACTENOS MOVIL --- FORMULARIO */
+    .contactenos_movil_formulario {
+        height: auto;
+    }
+
+    .contactenos_movil_formulario img {
+        height: 350px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    /* TODO -- BLOQUE CONTACTENOS MOVIL --- CONTENEDOR ---- FORMULARIO ----- ITEMS */
+    .contactenos_movil_formulario_items {
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .contactenos_movil_formulario_input {
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+        width: 100%;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+
+    .contactenos_movil_formulario_textarea {
+        color: black;
+        font-size: 20px;
+        border: 2px solid black;
+        width: 100%;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+
+    /*=============================================
+            TODO -- BLOQUE IMAGENES MOVIL
+    =============================================*/
+    .imagenes_movil {
+        height: 350px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /*=============================================
+            TODO -- FOOTER PIE PAGINA
+    =============================================*/
+    .pie {
+        height: auto;
+    }
+
+    /* TODO -- FOOTER PIE PAGINA --- CONTENEDOR */
+    .pie_contenedor {
+        grid-template-columns: 12fr;
+    }
+
+    /* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- AGUAPURA */
+    .pie_contenedor_aguapura {
+        height: 400px;
+        padding-top: 0%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .pie_contenedor_aguapura img {
+        height: 80px;
+    }
+
+    .pie_contenedor_aguapura p {
+        font-size: 18px;
+    }
+
+    /* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- MAPA */
+    .pie_contenedor_mapa {
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    /* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO */
+    .pie_contenedor_info {
+        height: 250px;
+        padding-top: 0%;
+        padding-left: 25%;
+    }
+
+    /* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES */
+    .pie_contenedor_info_redes {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .pie_contenedor_info i{
+        font-size: 30px;
+    }
+}

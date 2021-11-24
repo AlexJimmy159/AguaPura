@@ -1,0 +1,956 @@
+/*=============================================
+                TODO -- GLOBAL
+=============================================*/
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea, select, button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*=============================================
+         TODO -- COLORES A TRANSMITIR
+=============================================*/
+.color_Reflexión {
+    background-color: #3B185F;
+}
+
+.color_Confianza {
+    background-color: #252B42;
+}
+
+.color_Calma {
+    background-color: #A12568;
+}
+
+.color_Fuerza {
+    background-color: #FEC260;
+}
+
+
+/*=============================================
+                TODO -- HEADER
+=============================================*/
+.header {
+    background-color: rgba(59, 24, 95, 0.4);
+    position: fixed;
+    top: 0;
+    height: auto;
+    z-index: 3;
+}
+
+.header_contenido {
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr 1fr 1fr;
+}
+
+/* TODO -- HEADER --- ITEM */
+.item {
+    height: 60px;
+}
+
+/* TODO -- HEADER --- ITEM ---- LOGO */
+.item_logo {
+    height: 40px;
+    width: auto;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+/* TODO -- HEADER --- ITEM ---- SELECCION DE IDIOMA */
+.item_idiomaEs {
+    border: 2px solid #17A2B8;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item_idiomaEn {
+    border: 2px solid #17A2B8;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* TODO -- HEADER --- ITEM ---- MENU HAMBURGUESA */
+.item_menu {
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*=============================================
+                TODO -- BANNER
+=============================================*/
+.banner {
+    position: relative;
+}
+
+.banner li {
+    width: 100%;
+    height: 700px;
+}
+
+/* TODO -- BANNER --- INFO */
+.banner_info {
+    background-color: rgba(59, 24, 95, 0.4);
+    position: absolute;
+    width: 40%;
+    top: 11.5%;
+    height: auto;
+    bottom: 6%;
+}
+
+/* TODO -- BANNER --- INFO ---- LOGO */
+.banner_info img {
+    width: 90%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+/* TODO -- BANNER --- INFO ---- CONTENIDO */
+.info_contenedor {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    color: white;
+}
+
+.info_item {
+    color: white;
+}
+
+.info_item h1 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info_item h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+/* TODO -- BANNER --- VER MAS */
+.banner_VerMas {
+    position: absolute;
+    width: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+}
+
+
+/*=============================================
+                TODO -- MENU
+=============================================*/
+.menu {
+    position: fixed;
+    top: 80px;
+    height: 60px;
+    z-index: 5;
+}
+
+.nav-item {
+    border: 1px solid black;
+}
+
+/* TODO -- MENU --- ICONOS */
+.menu_iconos_contenedor {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.menu_icono_item {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: black;
+    font-weight: normal;
+}
+
+nav.menu li:hover > .nav-link {
+    background: #8B7B98;
+    transition: .5s all;
+    color: white;
+    font-weight: bold;
+}
+
+/*=============================================
+            TODO -- BLOQUE FONDO
+=============================================*/
+.bloque_fondo_contenido {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+/* TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- IMG */
+.item_bienvenido_img {
+    position: absolute;
+    height: 700px;
+    width: 50%;
+}
+
+/* TODO -- BLOQUE FONDO --- ITEM ---- BIENVENIDO ----- GIF */
+.item_bienvenido_gif {
+    height: 400px;
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+/* TODO -- BLOQUE FONDO --- ITEM ---- FONDO */
+.fondo_item_fondo {
+    height: 700px;
+    width: 100%;
+}
+
+/*=============================================
+        TODO -- BLOQUE IMPROTANCIA
+=============================================*/
+.importancia {
+    height: 700px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- TITULO */
+.importancia_titulo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.importancia_titulo h1 {
+    color: #FEC260;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO */
+.importancia_contenido {
+    height: 300px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM */
+.importancia_contenido_item {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    margin-top: 95px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- VIDEO */
+.importancia_contenido_video {
+    height: 400px;
+    width: 650px;
+    margin-top: -50px;
+    margin-left: -15px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO */
+.importancia_contenido_info {
+    background: black;
+    margin-top: -95px;
+    width: 425px;
+    height: 510px;
+    padding: 60px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ TITULO */
+.importancia_contenido_info h2 {
+    color: #FEC260;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ PARRAFO */
+.importancia_contenido_info p {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+/* TODO -- BLOQUE IMPORTANCIA --- CONTENIDO ---- ITEM ----- INFO ------ BOTON */
+.importancia_contenido_info_boton {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*=============================================
+            TODO -- BLOQUE SABIAS QUE
+=============================================*/
+.sabias {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.sabias h1 {
+    color: #FEC260;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sabias p {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*=============================================
+        TODO -- BLOQUE CAUSAS CONSECUENCIAS
+=============================================*/
+.causas_consecuencias {
+    height: 850px;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- TITULO */
+.causas_consecuencias_titulo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.causas_consecuencias_titulo h1 {
+    color: #FEC260;
+    font-weight: 900;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO */
+.causas_consecuencias_fondo {
+    height: 300px;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM*/
+.causas_consecuencias_contenido {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 200px;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CAUSAS */
+.causas_contenido {
+    background: url("../img/Inicio_Causas.png") no-repeat;
+    background-size: 400px 700px;
+    width: 400px;
+    height: 700px;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+.causas_contenido_item {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 700px;
+    padding-top: 250px;
+}
+
+.causas_contenido_item h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.causas_contenido_item input {
+    border: 2px solid black;
+    background-color: #FEC260;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ CONSECUENCIAS */
+.consecuencias_contenido {
+    background: url(../img/Inicio_Consecuencia.jpg) no-repeat;
+    background-size: 400px 700px;
+    width: 400px;
+    height: 700px;
+    margin-top: -200px;
+    margin-left: 70px;
+}
+
+.consecuencias_contenido_item {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 700px;
+    padding-top: 250px;
+}
+
+.consecuencias_contenido_item h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.consecuencias_contenido_item input {
+    border: 2px solid black;
+    background-color: #FEC260;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* TODO -- BLOQUE CAUSAS CONSECUENCIAS --- CONTENIDO ---- FONDO ----- ITEM ------ IMG */
+.sabiasque_img {
+    width: 400px;
+    height: 300px;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+/*=============================================
+        TODO -- BLOQUE SOBRE NOSOTROS
+=============================================*/
+.sobre_nosotros {
+    height: 700px;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- TITULO */
+.sobre_nosotros_titulo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sobre_nosotros_titulo h1 {
+    color: #FEC260;
+    font-weight: 900;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- FONDO */
+.sobre_nosotros_fondo {
+    background: url(../img/Inicio_SobreNosotros_fondo.png) no-repeat;
+    background-size: 100% 700px;
+    height: 400px;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO */
+.sobre_nosotros_contenido {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin-top: 75px;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- AGUAPURA */
+.sobre_nosotros_contenido_AguaPura {
+    width: 400px;
+    height: 550px;
+    margin-top: -75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.sobre_nosotros_contenido_AguaPura img {
+    width: 300px;
+    height: 80px;
+}
+
+.sobre_nosotros_contenido_AguaPura p {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sobre_nosotros_contenido_AguaPura input {
+    border: 2px solid black;
+    background-color: #FEC260;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM */
+.sobre_nosotros_contenido_team {
+    border: 2px solid black;
+    background-color: rgba(37, 43, 66, 0.6);
+    margin-top: 50px;
+    height: 300px;
+    width: 740px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+/* TODO -- BLOQUE SOBRE NOSOTROS --- FONDO ---- CONTENIDO ----- TEAM ------ ITEM 1,2 Y 3 */
+.sobre_nosotros_contenido_team_item {
+    background-color: black;
+    height: 260px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sobre_nosotros_contenido_team_item_foto {
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.sobre_nosotros_contenido_team_item h1 {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sobre_nosotros_contenido_team_item_icn {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+.sobre_nosotros_contenido_team_item_icn li {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.sobre_nosotros_contenido_team_item_logo {
+    margin-top: -20px;
+    height: 30px;
+    width: 100px;
+}
+
+/*=============================================
+        TODO -- BLOQUE CAMBIANDO VIDAS
+=============================================*/
+.cambiando_vidas {
+    height: 500px;
+    background: url(../img/Inicio_CambiandoVidas.png) no-repeat;
+    background-size: 100% 500px;
+}
+
+/* TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO */
+.cambiando_vidas_fondo {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO */
+.cambiando_vidas_contenido {
+    display: grid;
+    grid-template-columns:8fr 4fr;
+}
+
+/* TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM INFO */
+.cambiando_vidas_contenido_info {
+    background-color: black;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.cambiando_vidas_contenido_info h1 {
+    color: #FEC260;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cambiando_vidas_contenido_info p {
+    color: white;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+/* TODO -- BLOQUE CAMBIANDO VIDAS --- FONDO ---- CONTENIDO ----- ITEM TITULO */
+.cambiando_vidas_contenido_titulo {
+    height: 50px;
+    margin-top: 225px;
+    text-align: center;
+}
+
+.cambiando_vidas_contenido_titulo h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/*=============================================
+        TODO -- BLOQUE MEJORAR CONSUMO
+=============================================*/
+.mejorar_consumo {
+    height: 650px;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- TITULO */
+.mejorar_consumo_titulo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.mejorar_consumo_titulo h1 {
+    color: #FEC260;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO */
+.mejorar_consumo_contenido {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    height: 300px;
+    margin-top: 100px;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM */
+.mejorar_consumo_contenido_item {
+    height: 400px;
+    width: 400px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- IMG */
+.mejorar_consumo_contenido_item_img {
+    height: 175px;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- ITEM ----- INFO */
+.mejorar_consumo_contenido_item_info {
+    background-color: black;
+    height: 175px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mejorar_consumo_contenido_item_info h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.mejorar_consumo_contenido_item_info input {
+    border: 2px solid black;
+    background-color: #FEC260;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* TODO -- BLOQUE MEJORAR CONSUMO --- CONTENIDO ---- IMG  */
+.mejorar_consumo_contenido_img {
+    height: 500px;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+/*=============================================
+        TODO -- BLOQUE CONTACTENOS
+=============================================*/
+.contactenos_fondo {
+    background: url(../img/Inicio_contactenos_Fondo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.contactenos {
+    height: 700px;
+    background: rgba(37, 43, 66, 0.4);
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR  */
+.contactenos_contenedor {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO  */
+.contactenos_contenedor_info {
+    height: 700px;
+    width: 1100px;
+    margin-left: -200px;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- TITULO  */
+.contactenos_contenedor_info_titulo {
+    height: 350px;
+    text-align: left;
+}
+
+.contactenos_contenedor_info_titulo h1 {
+    padding-top: 250px;
+    padding-left: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM  */
+.contactenos_contenedor_info_contenedor {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 350px;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- INFO ----- ITEM ------ ATENCION, SERVICIO Y VISITANOS */
+.contactenos_contenedor_info_item {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin-left: 5px;
+    padding: 30px;
+}
+
+.contactenos_contenedor_info_item h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contactenos_contenedor_info_item h2 {
+    border: 2px solid white;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.contactenos_contenedor_info_item img {
+    height: 100px;
+}
+
+.contactenos_contenedor_info_item h3 {
+    font-size: 14px;
+    text-align: left;
+}
+
+.contactenos_contenedor_info_item_icn {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO  */
+.contactenos_contenedor_formulario {
+    background: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    width: 410px;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- IMG  */
+.contactenos_contenedor_formulario_img {
+    width: 410px;
+    height: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* TODO -- BLOQUE CONTACTENOS --- CONTENEDOR ---- FORMULARIO ----- ITEMS  */
+.contactenos_contenedor_formulario_items {
+    border: 2px solid black;
+    height: 525px;
+    width: 410px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contactenos_contenedor_formulario_input {
+    border: 2px solid black;
+    width: 290px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.contactenos_contenedor_formulario_textarea {
+    border: 2px solid black;
+    width: 290px;
+    margin-bottom: 15px;
+    height: 200px;
+}
+
+.contactenos_contenedor_formulario_boton {
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    margin-left: 95px;
+    background-color: #FEC260;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+/*=============================================
+        TODO -- BLOQUE IMAGENES
+=============================================*/
+.imagenes {
+    height: 350px;
+}
+
+/* TODO -- BLOQUE IMAGENES --- CONTENEDOR */
+.imagenes_contenedor {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 300px;
+    margin-top: 50px;
+}
+
+/* TODO -- BLOQUE IMAGENES --- CONTENEDOR ---- IMG  */
+.imagenes_contenedor_item {
+    margin-left: 5px;
+    height: 300px;
+}
+
+/*=============================================
+        TODO -- FOOTER PIE PAGINA
+=============================================*/
+.pie {
+    height: 500px;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR */
+.pie_contenedor {
+    display: grid;
+    grid-template-columns:3fr 6fr 3fr;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- AGUAPURA */
+.pie_contenedor_aguapura {
+    height: 500px;
+    padding: 20%;
+}
+
+.pie_contenedor_aguapura img {
+    margin-top: 50px;
+    height: 60px;
+}
+
+.pie_contenedor_aguapura p {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- MAPA */
+.pie_contenedor_mapa {
+    height: 400px;
+    margin-top: 50px;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO */
+.pie_contenedor_info {
+    height: 500px;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES */
+.pie_contenedor_info_redes {
+    height: 250px;
+    color: white;
+    padding-top: 100px;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM GMAIL, FACEBOOK Y WHATSAPP */
+.pie_contenedor_info_redes_item {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* TODO -- FOOTER PIE PAGINA --- CONTENEDOR ---- INFO ----- REDES ------ ITEM ICONOS */
+.pie_contenedor_info_icn {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.pie_contenedor_info_icn i {
+    font-size: 25px;
+    color: white;
+}
+
+/*=============================================
+        TODO -- FOOTER DERECHOS DE AUTOR
+=============================================*/
+.derechos {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+}
+
+.derechos h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
